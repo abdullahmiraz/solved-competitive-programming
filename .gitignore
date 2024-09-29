@@ -1,0 +1,45 @@
+# Ignore binary files generated from C++ compilation (MinGW)
+*.exe
+*.out
+*.o
+*.obj
+*.gch  # Precompiled headers
+
+# Ignore debugging and profiling files
+*.dSYM/
+*.log
+*.stackdump  # MinGW specific stack dumps
+
+# Ignore generated folders
+/build/
+bin/
+obj/
+debug/
+release/
+
+# Ignore temporary files created by editors/IDEs
+*.swp      # Vim swap files
+*.swo      # Vim temporary files
+*~         # Temporary files created by editors
+.vscode/   # VSCode configuration folder
+.idea/     # IntelliJ-based IDE configuration folder
+*.code-workspace  # Workspace files in VSCode
+*.ncb
+*.sdf
+*.opensdf
+*.vcxproj
+*.vcxproj.filters
+*.cproject
+*.project
+*.ipch/
+
+# Ignore Windows/Mac system files
+Thumbs.db  # Windows thumbnail cache
+.DS_Store  # macOS Finder specific files
+._*        # macOS hidden files
+
+# Ignore files from popular online judges (if needed)
+# For example, if you download problems/solutions from online platforms:
+testcases/
+input.txt
+output.txt
